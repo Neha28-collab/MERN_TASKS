@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<style>
+    h2 {
+    font-family: Arial;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    text-decoration: underline;
+}
+
+table {
+    font-size:15px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 4px;
+}
+input[type="text"] {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 5px 5px;
+    margin-top: 15px;
+    margin-right: 15px;
+    border-radius: 5px;
+}
+
+input[type="number"] {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 5px 5px;
+    margin-top: 15px;
+    margin-right: 15px;
+    border-radius: 5px;
+}
+
+input[type="text"].alpha-numeric {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 5px 5px;
+    margin-top: 15px;
+    margin-right: 15px;
+    border-radius: 5px;
+}
+
+
+input[type="number"]{
+    box-sizing: border-box;
+    width: 100%;
+    padding: 5px 5px;
+    margin-top: 15px;
+    margin-right: 15px;
+    border-radius: 5px;
+}
+
+input[type="password"]{
+    box-sizing: border-box;
+    width: 100%;
+    padding: 5px 5px;
+    margin-top: 15px;
+    margin-right: 15px;
+    border-radius: 5px;
+}
+
+input[type="alpha-numeric"]{
+    box-sizing: border-box;
+    width: 100%;
+    padding: 5px 5px;
+    margin-top: 15px;
+    margin-right: 15px;
+    border-radius: 5px;
+}
+
+select {
+    box-sizing: border-box;
+    width: 100%;
+    margin: 8px 0;
+    padding: 5px 5px;
+    border-radius: 5px;
+}
+textarea {
+    padding: 2px;
+    line-height: 1;
+    border-radius: 5px;
+    box-sizing: border-box;
+    } 
+
+
+</style>
+
+</head>
+<body>
+    <table cellpadding="10" cellspacing="2" align="center">
+        <tr>
+            <td class="col1">Full Name</td>
+            <td class="col2"><input type="text" name="fullname" id="fullname"></td>
+        </tr>
+
+        <tr>
+            <td class="col1">Username</td>
+            <td class="col2"><input type="text" name="username" id="username"></td>
+        </tr>
+
+        <tr>
+            <td class="col1">Password</td>
+            <td class="col2"><input type="password" name="password" id="password"></td>
+        </tr>
+
+        <tr>
+            <td class="col1">Re Password</td>
+            <td class="col2"><input type="password" name="password" id="password"></td>
+        </tr>
+
+        <tr>
+            <td class="col1">Address</td>
+            <td class="col2"><input type="alpha-numeric" name="address" id="address"></td>
+        </tr>
+
+
+        <tr>
+            <td class="col1">Age</td>
+            <td class="col2"><input type="number" name="age" id="age"></td>
+        </tr>
+
+        <tr>
+            <td class="col1">Gender</td>
+            <td class="col2">
+                <select name="person">
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="others">Others</option>
+                </select>
+            </td>
+        </tr>
+
+        <tr>
+            <td class="col1"><input type="submit" name="save" value="Save"></td>
+        </tr>
+
+    </table>
+
+</body>
+
+</html>
